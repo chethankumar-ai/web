@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/21/03/56/landscape-1844231_1280.png);
+    background-size: cover;
+}
+img[alt=home]{
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    top: 410px;
+    right:5px;
+}
+img[alt=moon]{
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2019/08/24/20/29/mandala-background-4428298_1280.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#content{
+    text-align: center;
+    padding: 20px 32px;
+    border: solid;
+    margin-top: 20%;
+    margin-left: 60%;
+    position:absolute;
+    background-color: transparent;
+    
+}
+h2{
+    margin-top: 10px;
+    color: white;
+}
+[type="text"],[type="password"],[type="submit"]{
+    height: 30px;
+    width: 250px;
+    margin-top: 10px ;
+    padding-left: 30px;
+}
+#pass{
+    margin-right:130px;
+    margin-top: 50px; 
+}
+[type="submit"]{
+    margin-top: 20px;
+    background-color: rgb(99, 99, 185);
+    padding-right: 15px;
+}
+#login{
+    margin-top: 10px;
+}
+[id="fb"],[id="insta"]{
+    height: 30px;
+    width: 120px;
+    color: white;
+}
+#sign{
+    margin-top: 10px;
+    padding-right:30px
+
+}
+[id="fb"]{
+    background-color: blue;  
+}
+[id="insta"]{
+    background-color: rgb(210, 23, 23);
+}

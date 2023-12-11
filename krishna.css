@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/05/06/14/13/pathway-2289978_1280.jpg);
+    background-size: cover;
+    
+}
+img{
+    position: absolute;
+    height: 100vh;
+    left: 28%;
+    bottom: 8%;
+    animation: krishna 8s linear infinite;
+    transform-origin:top;
+}
+@keyframes krishna {
+    0%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-0deg);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+}
+img[alt=butterflies2]{
+    height: 8vh;
+    width: 4%;
+    position: absolute;
+    bottom: 85%;
+    animation: butterfly 10s linear infinite;
+
+}
+@keyframes butterfly {
+    0%{
+        left:10px
+    }
+    100%{
+        left: 96%;
+    }
+    }

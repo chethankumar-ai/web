@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://cdn.pixabay.com/photo/2013/07/18/10/56/house-163526_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+[alt=tree]{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+[alt=newton]{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 500px;
+    left: 155px;
+}
+[alt=apple]{
+    height: 80px;
+    width: 150px;
+    position: absolute;
+    top: 450px;
+    left: 250px;
+
+}

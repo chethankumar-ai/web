@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-attachment: fixed;
+    background-image: url(https://cdn.pixabay.com/photo/2019/10/30/16/19/fox-4589927_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+form{
+    height: 400px;
+    width: 600px;
+    border: 1px solid;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 250px;
+    margin-left: 50px;
+    border-radius: 20px;
+    color: white;
+}
+table{
+    padding: 20px;
+}
+input{
+    height: 20px;
+    width: 200px
+}
+button{
+    height: 30px;
+    width: 500px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+h5,h5,table{
+    margin-top: 20px;
+}
